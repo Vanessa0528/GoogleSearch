@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Google Homepage Search" tests="8" skipped="0" failures="2" errors="0" timestamp="2020-11-30T07:05:57" hostname="PSOFKA0313" time="59.788">
+  <properties/>
+  <testcase name="User search content without results" classname="Google Homepage Search" time="7.674"/>
+  <testcase name="User search null content in Google search" classname="Google Homepage Search" time="5.356"/>
+  <testcase name="User to see  result page Google after" classname="Google Homepage Search" time="8.016"/>
+  <testcase name="User can search with “Google Search”" classname="Google Homepage Search" time="8.036">
+    <failure message="org.junit.ComparisonFailure: The result found it is not the expected expected:&lt;[The Name of the Wind - Patrick Rothfuss]&gt; but was:&lt;[El nombre del viento - Wikipedia, la enciclopedia libre]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: The result found it is not the expected expected:&lt;[The Name of the Wind - Patrick Rothfuss]&gt; but was:&lt;[El nombre del viento - Wikipedia, la enciclopedia libre]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at controllers.GoogleSearchController.validateFirstResult(GoogleSearchController.java:92)
+	at stepdefinition.GoogleSearchStep.theFirstResultIs(GoogleSearchStep.java:61)
+	at ✽.the first result is &quot;The Name of the Wind - Patrick Rothfuss&quot;(src/main/resources/features/googlesearch.feature:31)
+</failure>
+  </testcase>
+  <testcase name="User can search with “Google Search”" classname="Google Homepage Search" time="8.837"/>
+  <testcase name="list suggestion in Google search" classname="Google Homepage Search" time="5.454"/>
+  <testcase name="User can search by using the suggestions" classname="Google Homepage Search" time="7.225">
+    <failure message="org.junit.ComparisonFailure: The result found it is not the expected expected:&lt;[The Name of the Wind - Patrick Rothfuss]&gt; but was:&lt;[El nombre del viento - Wikipedia, la enciclopedia libre]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: The result found it is not the expected expected:&lt;[The Name of the Wind - Patrick Rothfuss]&gt; but was:&lt;[El nombre del viento - Wikipedia, la enciclopedia libre]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at controllers.GoogleSearchController.validateFirstResult(GoogleSearchController.java:92)
+	at stepdefinition.GoogleSearchStep.theFirstResultIs(GoogleSearchStep.java:61)
+	at ✽.the first result is &quot;The Name of the Wind - Patrick Rothfuss&quot;(src/main/resources/features/googlesearch.feature:51)
+</failure>
+  </testcase>
+  <testcase name="User can search by using the suggestions" classname="Google Homepage Search" time="9.113"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 22992
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 26082
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 45473
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 17355
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 29864
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 48285
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 10042
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 45364
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

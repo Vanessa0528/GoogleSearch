@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Google Homepage Search" skipped="0" tests="8" time="63.74" timestamp="2020-11-29 07:57:46"><testcase name="User search content in Google search that does not return results"/><testcase name="User search null content in Google search"/><testcase name="User to see  result page Google after"/><testcase name="User can search with “Google Search”"><error message="session not created&#10;from chrome not reachable&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'PSOFKA0313', ip: '192.168.0.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00BDECE3+3337443]&#10;&#9;Ordinal0 [0x00ABF041+2158657]&#10;&#9;Ordinal0 [0x00946E50+618064]&#10;&#9;Ordinal0 [0x0093D114+577812]&#10;&#9;Ordinal0 [0x0093D7DB+579547]&#10;&#9;Ordinal0 [0x0093EA45+584261]&#10;&#9;Ordinal0 [0x00939A71+563825]&#10;&#9;Ordinal0 [0x00947FD0+622544]&#10;&#9;Ordinal0 [0x008E6B2D+224045]&#10;&#9;Ordinal0 [0x008E5BFC+220156]&#10;&#9;Ordinal0 [0x008E181B+202779]&#10;&#9;Ordinal0 [0x008C3D74+81268]&#10;&#9;Ordinal0 [0x008C4D6E+85358]&#10;&#9;Ordinal0 [0x008C4CF9+85241]&#10;&#9;Ordinal0 [0x00AD6F2C+2256684]&#10;&#9;GetHandleVerifier [0x00D62FAC+1478332]&#10;&#9;GetHandleVerifier [0x00D62AFD+1477133]&#10;&#9;GetHandleVerifier [0x00D6AAD8+1509864]&#10;&#9;GetHandleVerifier [0x00D6369E+1480110]&#10;&#9;Ordinal0 [0x00ACD6BD+2217661]&#10;&#9;Ordinal0 [0x00AD89AB+2263467]&#10;&#9;Ordinal0 [0x00AD8AEF+2263791]&#10;&#9;Ordinal0 [0x00AED363+2347875]&#10;&#9;BaseThreadInitThunk [0x76BF6359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77C98944+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77C98914+180]&#10;&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'PSOFKA0313', ip: '192.168.0.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.SessionNotCreatedException">session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PSOFKA0313', ip: '192.168.0.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDECE3+3337443]
+	Ordinal0 [0x00ABF041+2158657]
+	Ordinal0 [0x00946E50+618064]
+	Ordinal0 [0x0093D114+577812]
+	Ordinal0 [0x0093D7DB+579547]
+	Ordinal0 [0x0093EA45+584261]
+	Ordinal0 [0x00939A71+563825]
+	Ordinal0 [0x00947FD0+622544]
+	Ordinal0 [0x008E6B2D+224045]
+	Ordinal0 [0x008E5BFC+220156]
+	Ordinal0 [0x008E181B+202779]
+	Ordinal0 [0x008C3D74+81268]
+	Ordinal0 [0x008C4D6E+85358]
+	Ordinal0 [0x008C4CF9+85241]
+	Ordinal0 [0x00AD6F2C+2256684]
+	GetHandleVerifier [0x00D62FAC+1478332]
+	GetHandleVerifier [0x00D62AFD+1477133]
+	GetHandleVerifier [0x00D6AAD8+1509864]
+	GetHandleVerifier [0x00D6369E+1480110]
+	Ordinal0 [0x00ACD6BD+2217661]
+	Ordinal0 [0x00AD89AB+2263467]
+	Ordinal0 [0x00AD8AEF+2263791]
+	Ordinal0 [0x00AED363+2347875]
+	BaseThreadInitThunk [0x76BF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77C98944+228]
+	RtlGetAppContainerNamedObjectPath [0x77C98914+180]
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PSOFKA0313', ip: '192.168.0.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: unknown</error><system-err>session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PSOFKA0313', ip: '192.168.0.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDECE3+3337443]
+	Ordinal0 [0x00ABF041+2158657]
+	Ordinal0 [0x00946E50+618064]
+	Ordinal0 [0x0093D114+577812]
+	Ordinal0 [0x0093D7DB+579547]
+	Ordinal0 [0x0093EA45+584261]
+	Ordinal0 [0x00939A71+563825]
+	Ordinal0 [0x00947FD0+622544]
+	Ordinal0 [0x008E6B2D+224045]
+	Ordinal0 [0x008E5BFC+220156]
+	Ordinal0 [0x008E181B+202779]
+	Ordinal0 [0x008C3D74+81268]
+	Ordinal0 [0x008C4D6E+85358]
+	Ordinal0 [0x008C4CF9+85241]
+	Ordinal0 [0x00AD6F2C+2256684]
+	GetHandleVerifier [0x00D62FAC+1478332]
+	GetHandleVerifier [0x00D62AFD+1477133]
+	GetHandleVerifier [0x00D6AAD8+1509864]
+	GetHandleVerifier [0x00D6369E+1480110]
+	Ordinal0 [0x00ACD6BD+2217661]
+	Ordinal0 [0x00AD89AB+2263467]
+	Ordinal0 [0x00AD8AEF+2263791]
+	Ordinal0 [0x00AED363+2347875]
+	BaseThreadInitThunk [0x76BF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77C98944+228]
+	RtlGetAppContainerNamedObjectPath [0x77C98914+180]
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PSOFKA0313', ip: '192.168.0.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: unknown&#13;
+controllers.GoogleSearchController.openExplorer(GoogleSearchController.java:27)&#13;
+stepdefinition.GoogleSearchStep.setUp(GoogleSearchStep.java:15)&#13;
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="list suggestion in Google search"/><testcase name="User can search by using the suggestions"/></testsuite>

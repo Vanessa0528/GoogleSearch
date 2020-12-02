@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Google Homepage Search</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Google Homepage Search</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Google Homepage Search</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">59.711s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">75%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="User can search by using the suggestions"></a>
+<h3 class="failures">User can search by using the suggestions</h3>
+<span class="code">
+<pre>org.junit.ComparisonFailure: The result found it is not the expected expected:&lt;[The Name of the Wind - Patrick Rothfuss]&gt; but was:&lt;[El nombre del viento - Wikipedia, la enciclopedia libre]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at controllers.GoogleSearchController.validateFirstResult(GoogleSearchController.java:92)
+	at stepdefinition.GoogleSearchStep.theFirstResultIs(GoogleSearchStep.java:61)
+	at ✽.the first result is &quot;The Name of the Wind - Patrick Rothfuss&quot;(src/main/resources/features/googlesearch.feature:51)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="User can search with “Google Search”"></a>
+<h3 class="failures">User can search with “Google Search”</h3>
+<span class="code">
+<pre>org.junit.ComparisonFailure: The result found it is not the expected expected:&lt;[The Name of the Wind - Patrick Rothfuss]&gt; but was:&lt;[El nombre del viento - Wikipedia, la enciclopedia libre]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at controllers.GoogleSearchController.validateFirstResult(GoogleSearchController.java:92)
+	at stepdefinition.GoogleSearchStep.theFirstResultIs(GoogleSearchStep.java:61)
+	at ✽.the first result is &quot;The Name of the Wind - Patrick Rothfuss&quot;(src/main/resources/features/googlesearch.feature:31)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">User can search by using the suggestions</td>
+<td class="success">9.113s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">User can search by using the suggestions</td>
+<td class="failures">7.225s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">User can search with “Google Search”</td>
+<td class="failures">8.036s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">User can search with “Google Search”</td>
+<td class="success">8.837s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">User search content without results</td>
+<td class="success">7.674s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">User search null content in Google search</td>
+<td class="success">5.356s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">User to see  result page Google after</td>
+<td class="success">8.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">list suggestion in Google search</td>
+<td class="success">5.454s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 22992
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 26082
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 45473
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 17355
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 29864
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 48285
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 10042
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 45364
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov 30, 2020 2:06:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 30/11/2020 02:07:00 AM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testRunners.GoogleSearchTestRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="PSOFKA0313" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/main/resources/features/googlesearch.feature:36 ?[0m# User can search with “Google Search”
+?[31msrc/main/resources/features/googlesearch.feature:56 ?[0m# User can search by using the suggestions
+
+8 Scenarios (?[31m2 failed?[0m, ?[32m6 passed?[0m)
+45 Steps (?[31m2 failed?[0m, ?[36m4 skipped?[0m, ?[32m39 passed?[0m)
+1m0,216s
+
+org.junit.ComparisonFailure: The result found it is not the expected expected:<[The Name of the Wind - Patrick Rothfuss]> but was:<[El nombre del viento - Wikipedia, la enciclopedia libre]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at controllers.GoogleSearchController.validateFirstResult(GoogleSearchController.java:92)
+	at stepdefinition.GoogleSearchStep.theFirstResultIs(GoogleSearchStep.java:61)
+	at ?.the first result is "The Name of the Wind - Patrick Rothfuss"(src/main/resources/features/googlesearch.feature:31)
+
+org.junit.ComparisonFailure: The result found it is not the expected expected:<[The Name of the Wind - Patrick Rothfuss]> but was:<[El nombre del viento - Wikipedia, la enciclopedia libre]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at controllers.GoogleSearchController.validateFirstResult(GoogleSearchController.java:92)
+	at stepdefinition.GoogleSearchStep.theFirstResultIs(GoogleSearchStep.java:61)
+	at ?.the first result is "The Name of the Wind - Patrick Rothfuss"(src/main/resources/features/googlesearch.feature:51)
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>
